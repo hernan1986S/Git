@@ -1,0 +1,385 @@
+index
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #7e0b0b;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #032927;
+    width: 150px;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a :hover{
+    background: #ef8354;
+}
+
+ul {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+    }
+li {
+    display: inline-block;
+    width: 25%;
+    position:relative;
+    font-size: 14px
+    }
+ul ul {
+    position: absolute;
+    display: none;
+    }
+ul ul li {
+    display: block;
+   
+    }
+ul li:hover ul {
+    display:block;
+   }
+
+
+
+
+   background-image: url(fondo.jpg);
+   -webkit -background-size: cover;
+   background-size: cover;
+   background-position: center center;
+   height: 10vh;
+   font-family: poppins;
+   font-weight: 0;
+   font-size: 16px;
+
+
+
+
+
+
+   <div class="contenedor">
+
+   <div class="mover">
+
+  </div>
+  <div class="mover rotar">
+
+  </div>
+  <div class="mover enx">
+
+   </div>
+   <div class="mover">
+
+   </div>
+   <div class="mover">
+
+   </div>
+   <div class="mover">
+
+  </div>
+
+  </div>
+
+  <aside class="aside">
+      <h2>
+             aside
+      </h2>
+  </aside>
+  <div class="imagen">
+    <h2>
+       Imagen
+    </h2>
+         </div>
+         <div class="dos">
+             <h2>
+                  otra imagen
+             </h2>
+         </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--imagenes-->
+   <h2>imagen</h2>
+   <img src="img/DDB’S CHIVAS REGAL CAMPAIGN_.png" width="300pxwhisky chivas regal">
+   <!--video-->
+   <h2>video</h2>
+   <video src="videos/tutorial.ogg" controls>
+   Tu navegador no implementa el elemento  <code>video</code>.
+   </video>
+   <!--video youtube-->
+   <h2>video youtube mediante iframe</h2>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/SWOV-B833IA" frameborder="0" 
+   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+   allowfullscreen></iframe>
+   <!--audio de forma local-->
+   <h2>audio de forma local </h2>
+   <audio src="audio.ogg"controls>
+   <p>Tu navegador no implementa el elemento audio.</p>
+   </audio>
+   <!--audio de spotifi-->
+   <h2>audio de spotifi</h2>
+   <iframe src="https://open.spotify.com/embed/track/6f3Slt0GbA2bPZlz0aIFXN" 
+   width="300" height="380" frameborder="0" allowtransparency="true" 
+   allow="encrypted-media"></iframe>
+   <!--google maps-->
+   <h2>google maps</h2>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.0903950550774!2d-58.45544808449746!3d-34.8288196769507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3fadc478749%3A0xb6d1f143c2fe9143!2sAzcu%C3%A9naga%2C%20Monte%20Grande%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1612210916966!5m2!1ses-419!2sar" 
+   width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+   
+
+
+   
+
+
+
+
+
+   
+
+
+            
+                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <ul>
+   <li><a href="index.html">inicio</a></li>   
+</ul>
+
+
+
+
+
+
+
+
+  
+  
+  
+   <nav class="navegacion">
+   <ul class="menu">
+       <li><a href="aperitivos.html">aperitivos</a></li>
+       <li><a href="cervezas.html">cervezas</a></li>
+       <li><a href="delicatessen.html">delicatessen</a></li>
+       <li><a href="destilados.html">destilados</a></li>
+       <li><a href="espumantes.html">espumantes</a></li>
+       <li><a href="whiskys.html">whiskys</a></li>
+       <li><a href="informacion.html">informacion</a></li>
+   </ul>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
