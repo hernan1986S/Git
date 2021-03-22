@@ -36,7 +36,6 @@ h2{
 body{
     background-color: #e6dada;
     }
-        
 h2{
     color: rgb(148, 92, 36);
     font-style: italic;
@@ -46,7 +45,7 @@ h2{
             text-align: center;
             }
             section article{
-            color: rgb(170, 38, 170);
+            color: red;
             font-style: italic;
             font-size: large;
             font-weight: bold;

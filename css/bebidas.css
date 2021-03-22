@@ -214,7 +214,305 @@ ul li:hover ul {
 
 
 
-
+   body {
+    background: #d9dfeb; }
+    body .navegacion {
+      width: 1000px;
+      margin: 30px auto;
+      background: #fff; }
+    body .navegacion ul {
+      list-style: none; }
+    body .menu li {
+      position: relative;
+      display: inline-block; }
+    body .menu li a {
+      display: block;
+      padding: 15px 20px;
+      color: #353535;
+      font-family: 'Times New Roman', Times, serif; }
+    body .menu li a:hover {
+      color: #ce7d35; }
+    body h2 {
+      color: #060707;
+      font-size: large;
+      font-weight: bolder;
+      font-style: normal;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: #b4bec5; }
+  
+  body {
+    background-color: #e6dada; }
+    body h2 {
+      color: #945c24;
+      font-style: italic;
+      font-size: large;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center; }
+    body section article {
+      color: #aa26aa;
+      font-style: italic;
+      font-size: large;
+      font-weight: bold;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-decoration: solid;
+      text-align: center; }
+    body section article p {
+      color: #b5c9c9;
+      text-transform: capitalize;
+      text-decoration: none; }
+  
+  body {
+    background-color: #e8e8e8; }
+    body .h1 {
+      color: #324611;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 300%;
+      font-family: Arial, Helvetica, sans-serif;
+      background-size: cover;
+      background-image: url();
+      border: 2px solid #03030f;
+      text-align: center;
+      text-decoration: aliceblue; }
+    body .section article {
+      color: #090e0f;
+      font-weight: lighter;
+      font-family: "Times New Roman", Times, serif;
+      text-align: center;
+      text-transform: none;
+      background-color: black;
+      background-position: 10px;
+      letter-spacing: 10px; }
+    body .section article p {
+      color: #030303;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+      text-transform: none;
+      text-decoration: azure; }
+    body .parrafo {
+      color: #020702;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+      text-transform: capitalize; }
+    body #onceavo {
+      font-size: large;
+      line-height: 50px;
+      background-repeat: repeat; }
+  
+  body {
+    background-color: #8f1c1c; }
+    body .contenedorpadre {
+      border: 5px solid;
+      display: flex;
+      flex: content;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-flow: column;
+      justify-content: center;
+      align-items: unset;
+      align-content: initial;
+      order: inherit;
+      flex-basis: 10%;
+      flex-shrink: unset; }
+    body .elementohijo {
+      padding: 10px;
+      text-align: center;
+      font-size: 1em;
+      flex-wrap: wrap;
+      justify-content: left;
+      order: unset; }
+    body .uno {
+      background-color: #24b4b4;
+      text-align: center;
+      text-decoration: none; }
+    body .dos {
+      background-color: #28bebe;
+      text-decoration: none; }
+    body .tres {
+      background-color: #32c8c8; }
+    body .cuatro {
+      background-color: #3cd2d2; }
+    body .cinco {
+      background-color: #46dcdc; }
+    body .seis {
+      background-color: #50e6e6; }
+  
+  body {
+    background-color: #851f1f; }
+    body h1 {
+      background: #b1b11b;
+      border-bottom: 3px double #090a09;
+      border-left: 3px double #090a09;
+      border-top: 3px double #090a09;
+      border-right: 3px double #030303;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-right: 0px;
+      padding-bottom: 5px;
+      margin-left: 10px;
+      text-align: center; }
+    body h2 {
+      border: 2px solid black;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 15px;
+      padding-bottom: 10px;
+      margin-left: 10px;
+      text-align: center; }
+    body article {
+      background-color: #d1dad2;
+      border: 1px solid #0c0b0b;
+      text-align: center; }
+    body p {
+      background-color: white }
+    body .p {
+      background-color: #10140c; }
+    body .header {
+      background-color: #59b6b6;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      text-align: center; }
+    body .main {
+      background-color: #09743e;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      text-align: center; }
+    body .aside {
+      display: flex;
+      background-color: #6ca1bb;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      align-items: center;
+      justify-content: center; }
+    body .footer {
+      height: 60px;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-column: span 3;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    body .imagen {
+      background-color: burlywood;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    body .aside {
+      grid-column: span 3;
+      min-height: 100px; }
+    body .dos {
+      grid-column: span 2; }
+    body .gradiente {
+      margin: 40px;
+      height: 170px;
+      text-align: center;
+      border: 4px solid black;
+      background-image: linear-gradient(red, yellow); }
+    body .one {
+      margin: 40px;
+      height: 270px;
+      text-align: center;
+      border: 4px solid black;
+      background-image: linear-gradient(#a1a1cf, red); }
+    body .two {
+      margin: 40px;
+      height: 120px;
+      text-align: center;
+      border: 4px solid black;
+      background-image: linear-gradient(green, orange); }
+    body .three {
+      margin: 40px;
+      height: 230px;
+      text-align: center;
+      border: 4px solid black;
+      background-image: linear-gradient(#3cc93c, white); }
+    body .mover {
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+      background-color: #3a66c0;
+      transform: translate(10px, 20px); }
+    body .rotar {
+      transform: rotate(45deg); }
+    body .enx {
+      transform: rotateX(70deg); }
+    body .bloque {
+      color: #ce7d35; }
+    body .bloque__elemento {
+      color: black; }
+    body .bloque__elemto--modificable {
+      color: red; }
+  
+  body {
+    background-color: #e8e8e8; }
+    body .h1 {
+      color: #f7f3f3;
+      font-size: 50px;
+      font-weight: bold;
+      font-style: italic;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #2fc4f1;
+      background-size: 30x;
+      text-decoration: none;
+      text-align: center;
+      border-bottom: 5px black;
+      border-left: 5px black;
+      border-right: 5px #bd1616;
+      border-width: 5px; }
+    body .section article {
+      color: #ad5117;
+      font-size: medium;
+      font-weight: bolder;
+      font-style: italic;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+      text-align: center;
+      text-decoration: solid; }
+    body .section article p {
+      color: #0b101b;
+      font-style: oblique;
+      font-weight: lighter;
+      font-size: medium;
+      font-family: "Times New Roman", Times, serif;
+      background-position: 30px;
+      background-size: auto;
+      background-color: aquamarine; }
+    body .parrafo {
+      color: #d14444;
+      font-size: smaller;
+      font-weight: bold;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      text-shadow: 40px; }
+  
+  .parrafo {
+    color: #020702;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    text-transform: capitalize; }
+  
+  p {
+    background-color: bisque; }
+  
+  .p {
+    background-color: #10140c; }
+  
+  .parrafo {
+    color: #d14444;
+    font-size: smaller;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-shadow: 40px; }
+  
+  .footer {
+    height: 60px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-column: span 3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  
+  .footer {
+    text-align: left;
+    text-decoration: dashed;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: small; }
 
 
 

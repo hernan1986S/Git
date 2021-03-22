@@ -147,7 +147,7 @@ body {
     border: 1px solid #0c0b0b;
     text-align: center; }
   body p {
-    background-color: bisque; }
+    background-color: white }
   body .p {
     background-color: #10140c; }
   body .header {
@@ -297,3 +297,28 @@ p {
   font-style: italic;
   font-weight: bold;
   font-size: small; }
+body{
+  background-color:white;
+}
+  .centralizado{
+    width: 300px;
+    height: auto; overflow: hidden;
+    border: 1px solid;
+    color: black;
+  }
+  
+  .descripcion-pagina{
+    text-align:center;
+  }
+  .derecha{
+    text-align: center;
+    width: 300px;
+    height: auto; overflow: hidden;
+    border: 1px solid black;
+    color:black;
+
+  }
+  
+.contenedor{
+  width: 100%;
+}
