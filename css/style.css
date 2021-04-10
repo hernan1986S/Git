@@ -1,12 +1,11 @@
 body{
-    background:#e5e7ec; 
-     
+    background:#8da1d3; 
 }
-    
 .navegacion{
     width: 1000px;
     margin: 30px auto;
     background: #fff
+   
    
 }
 .navegacion ul{
