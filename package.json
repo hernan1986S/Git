@@ -16,5 +16,13 @@
     "sass": "^1.32.8"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernan1986S/Git.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hernan1986S/Git/issues"
+  },
+  "homepage": "https://github.com/hernan1986S/Git#readme",
   "description": ""
 }

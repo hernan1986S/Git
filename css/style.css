@@ -1,11 +1,13 @@
 body{
-    background:#d9dfeb; 
+    background:#e5e7ec; 
+     
 }
     
 .navegacion{
     width: 1000px;
     margin: 30px auto;
     background: #fff
+   
 }
 .navegacion ul{
     list-style: none;
@@ -70,8 +72,8 @@ h2{
 
 
 body{
-    background-color: #e8e8e8 color: black;
-    }
+    background-color: #d9dfeb;
+}
 .h1{
     color: rgb(50, 70, 17);  
     font-style: italic;
