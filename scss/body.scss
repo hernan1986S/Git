@@ -1,0 +1,211 @@
+html body {
+  background-color: rgb(212, 212, 212);
+  width: 1450px;
+  height: 500px;
+}
+
+body {
+  width: 100px;
+  height: 100px;
+  font-family: sans-serif;
+  letter-spacing: 0.03rem;
+  line-height: 1.6;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+  font-weight: 100;
+}
+
+.container {
+  width: 100px;
+  height: 930px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  
+  
+}
+
+.container .tarjeta {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .tarjeta:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container .tarjeta img {
+  width: 330px;
+  height: 320px;
+}
+
+.container .tarjeta h4 {
+  font-weight: 600;
+}
+
+.container .tarjeta p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container .tarjeta a {
+  font-weight: 500;
+  text-decoration: none;
+}
+footer{
+  background-color: aliceblue;
+  display: flex;
+  justify-content:space-evenly ;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer p{
+  font-family: sans-serif;
+  margin-top: 40px;
+  
+}
+.footer a{
+  text-decoration: none;
+  color: #46515c;
+}
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+.texto-encima{
+  text-align: justify;
+  position: absolute;
+  top: 30%;
+  left: 30px;
+  float: left;
+  width: 500px;
+  height: 100px;
+  font-family: monospace;
+  color: burlywood;
+  font-size: 150%;
+}
+.iconos{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.iconos-2{
+  position: absolute;
+  float: left;
+  top: 102%;
+  left: 48%;
+}
+.iconos-4{
+  position: absolute;
+  float: left;
+  top: 105%;
+  left: 48%;
+}
+.iconos-5{
+  position: absolute;
+  float: left;
+  top: 108%;
+  left: 48%;
+}
+.telefono{
+  float: left;
+  left: 50%;
+  top: 97%;
+  position: absolute;
+  text-align: center;
+}
+.mail{
+  float: left;
+  left: 50%;
+  top: 100%;
+  position: absolute;
+  text-align: center;
+}
+.ubicacion{
+  float: left;
+  left: 50%;
+  top: 104%;
+  position: absolute;
+  text-align: center;
+}
+.tarjeta-1{
+  position: absolute;
+  float: left;
+  left: 20%;
+  top: 104%;
+  width: 60px;
+}
+.tarjeta-2{
+  position: absolute;
+  float: left;
+  left: 25%;
+  top: 104%;
+  width: 60px;
+}
+.tarjeta-3{
+  position: absolute;
+  float: left;
+  left: 30%;
+  width: 80px;
+  top: 102%;
+}
+.scroll_vertical{
+  width: 1450px;
+  height: 700px;
+  overflow: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgb(153, 180, 180);
+  padding: 8px;
+}
+.titulo-Shop{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+.container-contacto, .formulario-contacto{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ background-color: transparent;
+ color: rgb(12, 70, 50);
+ border-radius: 80px;
+ border-width: 3px;
+ border-color: darkgreen;
+ align-items: flex-start;
+}
+.titulo-contacto, .texto-contacto{
+  font-weight: bolder;
+  font-size: x-large;
+}
+.button-submit{
+  font-weight: bolder;
+  color: blue;
+}
+.carrito-shop{
+  font-size: large;
+  font-weight: bolder;
+}
+.card{
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width:576px) {
+  header {
+    padding-bottom: 10px;
+  }
+}

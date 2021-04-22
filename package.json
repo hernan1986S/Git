@@ -4,25 +4,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/estilo.css",
+    "build-css": "node-sass --include-path scss scss/body.scss css/estilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^5.0.0",
-    "nodeman": "^1.1.2",
-    "nodemon": "^2.0.7",
-    "sass": "^1.32.8"
-  },
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hernan1986S/Git.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/hernan1986S/Git/issues"
   },
   "homepage": "https://github.com/hernan1986S/Git#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {},
   "description": ""
 }
